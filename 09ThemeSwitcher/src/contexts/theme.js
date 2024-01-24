@@ -11,6 +11,7 @@ export const ThemeContext = createContext({
 
 export const ThemeProvider = ThemeContext.Provider
 
+// creating customhook
 export default function useTheme(){
     return useContext(ThemeContext)
     // ab hume 2-2 br ye useContext and Theme import nhi krna padega

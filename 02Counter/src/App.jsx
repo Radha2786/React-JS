@@ -30,7 +30,7 @@ let AddValue=()=>{
   return (
     <>
       <h1>Gulab Jamun khalo Guys</h1>
-      <h2>Counter value: 5</h2>
+      <h2>Counter value: {counter}</h2>
 
       <button onClick={AddValue}>Add Value {counter}</button>
       
